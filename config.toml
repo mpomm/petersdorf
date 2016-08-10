@@ -20,8 +20,19 @@ theme = "casper"
   hideHUGOSupport = false
 
 [[menu.main]]
-  name = "Verein"
+  name = "Startseite"
   weight = -120
   identifier = "blog"
   url = "/"
 
+[[menu.main]]
+  name = "Vorstellung"
+  weight = -119
+  identifier = "vorstellung"
+  url = "/post/vorstellung"
+
+[[menu.main]]
+  name = "Kontakt"
+  weight = 100
+  identifier = "kontakt"
+  url = "/kontakt"
