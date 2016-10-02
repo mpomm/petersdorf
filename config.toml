@@ -13,7 +13,7 @@ theme = "casper"
   author = "Friedenslager Petersdorf"
   logo = "images/logo-top-left.png"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  # RSSLink = "http://feeds.feedburner.com/..." 
+  # RSSLink = "http://feeds.feedburner.com/..."
   # facebookName = ""
   # linkedinName = ""
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
@@ -26,13 +26,19 @@ theme = "casper"
   url = "/"
 
 [[menu.main]]
-  name = "Vorstellung"
+  name = "Verein"
   weight = -119
-  identifier = "vorstellung"
-  url = "/post/vorstellung"
+  identifier = "verein"
+  url = "/tags/verein"
 
 [[menu.main]]
   name = "Kontakt"
   weight = 100
   identifier = "kontakt"
   url = "/kontakt"
+
+[[menu.main]]
+  name = "Aktuelles"
+  weigth = -118
+  identifier = "aktuelles"
+  url = "/tags/aktuelles"
